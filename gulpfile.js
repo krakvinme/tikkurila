@@ -1,5 +1,4 @@
 'use strict';
-
 var path = {
     build: {
         html: 'assets/docs/',
@@ -147,7 +146,7 @@ gulp.task('fonts:build', function () {
 
 
 gulp.task('image:build', function () {
-    return gulp.src(path.src.img)
+    return gulp.src(path.src.img, { encoding: false })
         .pipe(cache(imagemin([
             imagemin.gifsicle({ interlaced: true }),
             jpegrecompress({
