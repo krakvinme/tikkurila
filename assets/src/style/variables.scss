@@ -1,0 +1,101 @@
+// /*FONT-FAMILY*/
+$default-font:'din-round-pro-regular', sans-serif;
+$default-size-font: 18px;
+// /*BACKGROUND*/
+// $default-site-bg: #fff;
+// $alt-site-bg: #7A1774;
+// //$default-bg: #eeeeee;
+// /*TEXT-COLOR*/
+// $base-color: #22140B;
+// $alt-color: #7A1774;
+// Default variable overrides
+$body-bg: #fff;
+$body-color: #1A1A1A;
+
+
+
+
+@mixin border-radius($radius) {
+    -moz-border-radius: $radius;
+    -webkit-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+  }
+  
+  @mixin transition ($prop: all, $time: 0.3s, $ease: linear) {
+      -webkit-transition: $prop $time $ease;
+      -moz-transition: $prop $time $ease;
+      -o-transition: $prop $time $ease;
+      -ms-transition: $prop $time $ease;
+      transition: $prop $time $ease;
+  }
+  
+  @mixin transform($deg:10deg){
+      -ms-transform: rotate($deg);
+      -webkit-transform: rotate($deg);
+      transform: rotate($deg);
+  }
+  
+  @mixin box-shadow ($string) {
+      -webkit-box-shadow: $string;
+      -moz-box-shadow:    $string;
+      box-shadow:         $string;
+  }
+  
+  @mixin text-shadow ($t-string) {
+      -webkit-box-shadow: $t-string;
+      -moz-box-shadow:    $t-string;
+      box-shadow:         $t-string;
+  }
+  
+  @mixin box-sizing($boxmodel) {
+    -webkit-box-sizing: $boxmodel;
+       -moz-box-sizing: $boxmodel;
+            box-sizing: $boxmodel;
+  }
+  
+  
+  $default-color: #f2efe2;
+  
+  /*FONT-FAMILY*/
+  $default-font: 'din-round-pro-regular', sans-serif;
+  
+  /*FONT-SIZE*/
+  $default-size-font: 18px;
+  
+  /*BACKGROUND*/
+  $default-bg-color: #ffffff;
+  
+  /*TEXT-COLOR*/
+  $base-color: #011119;
+  
+  
+  /*GRID*/
+  $grid-columns: 12;
+  $grid-gutter-width: 30px;
+  
+  /*RESPONSIVE */
+  $screen-xs: 500px;
+  $screen-sm: 768px;
+  $screen-md: 992px;
+  $screen-lg: 1200px;
+  
+  
+  /*CONTAINER MIN-WIDTH*/
+  $screen-xs-min: $screen-xs;
+  $screen-sm-min: $screen-sm;
+  $screen-md-min: $screen-md;
+  $screen-lg-min: $screen-lg;   
+  
+  /*CONTAINER WIDTH*/
+  $container-xs: $screen-xs;
+  $container-sm: $screen-sm;
+  $container-md:  $screen-md;
+  $container-lg: $screen-lg;
+  
+  /*BREAKPOINT POINTS*/
+  $large-desktop-breakpoint: ($screen-lg - 1px);
+  $desktop-breakpoint: ($screen-md - 1px);
+  $tablet-breakpoint: ($screen-sm - 1px);
+  $mobile-breakpoint: ($screen-xs);
+  
