@@ -6,6 +6,7 @@ var path = {
         js_libs: 'assets/docs/js/libs/',
         css: 'assets/docs/css/',
         img: 'assets/docs/img/',
+        imgWebp: 'assets/docs/img/webp/',
         favicon: 'assets/docs/favicon/',
         fonts: 'assets/docs/fonts/'
     },
@@ -58,6 +59,8 @@ import jpegrecompress from 'imagemin-jpeg-recompress'
 import pngquant from 'imagemin-pngquant'
 import del from 'del'
 import rename from 'gulp-rename'
+import htmlmin from 'gulp-htmlmin'
+import webp from 'gulp-webp';
 
 const sass = gulpSass(dartSass);
 
@@ -71,6 +74,7 @@ gulp.task('html:build', function () {
     return gulp.src(path.src.html)
         .pipe(plumber())
         .pipe(rigger())
+        .pipe(htmlmin({ collapseWhitespace: true }))
         .pipe(gulp.dest(path.build.html))
         .pipe(webserver.reload({ stream: true }));
 });
@@ -109,9 +113,9 @@ gulp.task('js:build', function () {
         .pipe(plumber())
         .pipe(rigger())
         .pipe(gulp.dest(path.build.js))
-        //.pipe(rename({ suffix: '.min' }))
-        //.pipe(sourcemaps.init())
-        //.pipe(uglify())
+        .pipe(rename({ suffix: '.min' }))
+        .pipe(sourcemaps.init())
+        .pipe(uglify())
         //.pipe(sourcemaps.write('./'))
         .pipe(gulp.dest(path.build.js))
         .pipe(webserver.reload({ stream: true }));
@@ -157,7 +161,9 @@ gulp.task('image:build', function () {
             pngquant(),
             imagemin.svgo({ plugins: [{ removeViewBox: false }] })
         ])))
-        .pipe(gulp.dest(path.build.img));
+        .pipe(gulp.dest(path.build.img))
+        // .pipe(webp())
+        // .pipe(gulp.dest(path.build.imgWebp));
 });
 
 

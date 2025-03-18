@@ -20,8 +20,12 @@
     "gulp-sass": "^6.0.1",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify": "^3.0.2",
+    "gulp-webp": "^5.0.0",
     "imagemin-jpeg-recompress": "^7.1.0",
     "imagemin-pngquant": "^9.0.2",
     "sass": "1.79"
+  },
+  "dependencies": {
+    "gulp-htmlmin": "^5.0.1"
   }
 }

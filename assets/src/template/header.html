@@ -1,7 +1,505 @@
 <header class="page-header">
     <div class="container">
-        <span class="top-logo">
-            <img src="img/content/top-logo.png" alt="">
-        </span>
+        <div class="page-header__wrap">
+            <span class="top-logo"></span>
+            
+            <div class="page-header__view">
+                <div class="top-nav">
+                    <ul class="top-nav__list">
+                        <li class="top-nav__item"><a href="#" class="top-nav__link">О проекте</a></li>
+                        <li class="top-nav__item top-nav__item--submenu">
+                            <a href="#" class="top-nav__link">Обучение</a>
+                            <div class="top-submenu">
+                                <div class="top-submenu__item">
+                                    <a href="#" class="top-submenu__link">Курсы</a></div>
+                                <div class="top-submenu__item">
+                                    <span class="top-submenu__link active">Журнал</span></div>
+                                <div class="top-submenu__item">
+                                    <a href="#" class="top-submenu__link">События</a></div>
+                                <div class="top-submenu__item">
+                                    <a href="#" class="top-submenu__link">Онлайн-университет</a></div>
+                            </div>
+                        </li>
+                        <li class="top-nav__item"><a href="#" class="top-nav__link">Вебинары</a></li>
+                        <li class="top-nav__item"><a href="#" class="top-nav__link">Блог</a></li>
+                        <li class="top-nav__item"><a href="#" class="top-nav__link">Возможности</a></li>
+                        <li class="top-nav__item"><a href="#" class="top-nav__link">Новости</a></li>
+                        <li class="top-nav__item"><a href="#" class="top-nav__link">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="user-links">
+                    <div class="user-course">
+                        <a href="#" class="user-course__link js-user-course__link">
+                            <span class="user-links__icon">
+                                <span class="user-course__count">4</span>
+                            </span>
+                            Курсы
+                        </a>
+                        <div class="user-course__list">
+                            <a href="#" class="user-course__close js-user-course__close"></a>
+                            <div class="user-course-back">
+                                Активные курсы
+                            </div>
+                            <div class="user-lecture__roll">
+                                <ol>
+                                    <li>
+                                        <div class="user-lecture__inner">
+                                            <div class="user-lecture__top">
+                                                <a href="#" class="js-lecture-select">Рынок вакансий 2018: ожидания vs. реальность</a>
+                                            </div>
+                                            <div class="user-lecture__links">
+                                                <div class="user-watch">
+                                                    <a href="#" class="user-watch__link"></a>
+                                                    Лекций просмотрено: <span>4</span> из <span>23</span>
+                                                    <div class="user-watch__line">
+                                                        <span class="user-watch__range" style="width: 40%;"></span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="user-btn"><span>Экзамен</span></a>
+                                            </div>
+                                            <div class="user-watch__list">
+                                                <div class="user-watch__item">
+                                                    <a href="#" class="course-visited">
+                                                        Почему русские боялись импрессионизма
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#">
+                                                        Как русское искусство перестало быть провинциальным
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#" class="course-visited">
+                                                        Как в Россию пришли постимпрессионизм и фовизм
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#" class="course-visited">
+                                                        Как Матисс поссорил русских
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#">
+                                                        Как Щукин и Морозов собирали французскую живопись
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="user-lecture__inner">
+                                            <div class="user-lecture__top">
+                                                <a href="#" class="js-lecture-select">
+                                                    Приключения Моне, Матисса и Пикассо в России
+                                                </a>
+                                            </div>
+                                            <div class="user-lecture__links">
+                                                <div class="user-watch">
+                                                    <a href="#" class="user-watch__link"></a>
+                                                    Лекций просмотрено: <span>1</span> из <span>10</span>
+                                                    <div class="user-watch__line">
+                                                        <span class="user-watch__range" style="width: 10%;"></span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="user-btn"><span>Экзамен</span></a>
+                                            </div>
+                                            <div class="user-watch__list">
+                                                <div class="user-watch__item">
+                                                    <a href="#" class="course-visited">
+                                                        Почему русские боялись импрессионизма
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#">
+                                                        Как русское искусство перестало быть провинциальным
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#" class="course-visited">
+                                                        Как в Россию пришли постимпрессионизм и фовизм
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#" class="course-visited">
+                                                        Как Матисс поссорил русских
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#">
+                                                        Как Щукин и Морозов собирали французскую живопись
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="user-lecture__inner">
+                                            <div class="user-lecture__top">
+                                                <a href="#" class="js-lecture-select">
+                                                    Приключения Моне, Матисса и Пикассо в России
+                                                </a>
+                                            </div>
+                                            <div class="user-lecture__links">
+                                                <div class="user-watch">
+                                                    <a href="#" class="user-watch__link"></a>
+                                                    Лекций просмотрено: <span>3</span> из <span>10</span>
+                                                    <div class="user-watch__line">
+                                                        <span class="user-watch__range" style="width: 30%;"></span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="user-btn"><span>Экзамен</span></a>
+                                            </div>
+                                            <div class="user-watch__list">
+                                                <div class="user-watch__item">
+                                                    <a href="#" class="course-visited">
+                                                        Почему русские боялись импрессионизма
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#">
+                                                        Как русское искусство перестало быть провинциальным
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#" class="course-visited">
+                                                        Как в Россию пришли постимпрессионизм и фовизм
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#" class="course-visited">
+                                                        Как Матисс поссорил русских
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#">
+                                                        Как Щукин и Морозов собирали французскую живопись
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="user-lecture__inner">
+                                            <div class="user-lecture__top">
+                                                <a href="#" class="js-lecture-select">
+                                                    Рынок вакансий 2018: ожидания vs. реальность
+                                                </a>
+                                            </div>
+                                            <div class="user-lecture__links">
+                                                <div class="user-watch">
+                                                    <a href="#" class="user-watch__link"></a>
+                                                    Лекций просмотрено: <span>10</span> из <span>10</span>
+                                                    <div class="user-watch__line">
+                                                        <span class="user-watch__range" style="width: 100%;"></span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="user-btn"><span>Экзамен</span></a>
+                                            </div>
+                                            <div class="user-watch__list">
+                                                <div class="user-watch__item">
+                                                    <a href="#" class="course-visited">
+                                                        Почему русские боялись импрессионизма
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#">
+                                                        Как русское искусство перестало быть провинциальным
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#" class="course-visited">
+                                                        Как в Россию пришли постимпрессионизм и фовизм
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#" class="course-visited">
+                                                        Как Матисс поссорил русских
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#">
+                                                        Как Щукин и Морозов собирали французскую живопись
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="user-lecture__inner">
+                                            <div class="user-lecture__top">
+                                                <a href="#" class="js-lecture-select">
+                                                    Рынок вакансий 2018: ожидания vs. реальность
+                                                </a>
+                                            </div>
+                                            <div class="user-lecture__links">
+                                                <div class="user-watch">
+                                                    <a href="#" class="user-watch__link"></a>
+                                                    Лекций просмотрено: <span>4</span> из <span>23</span>
+                                                    <div class="user-watch__line">
+                                                        <span class="user-watch__range" style="width: 40%;"></span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="user-btn"><span>Экзамен</span></a>
+                                            </div>
+                                            <div class="user-watch__list">
+                                                <div class="user-watch__item">
+                                                    <a href="#" class="course-visited">
+                                                        Почему русские боялись импрессионизма
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#">
+                                                        Как русское искусство перестало быть провинциальным
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#" class="course-visited">
+                                                        Как в Россию пришли постимпрессионизм и фовизм
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#" class="course-visited">
+                                                        Как Матисс поссорил русских
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#">
+                                                        Как Щукин и Морозов собирали французскую живопись
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="user-lecture__inner">
+                                            <div class="user-lecture__top">
+                                                <a href="#" class="js-lecture-select">
+                                                    Рынок вакансий 2018: ожидания vs. реальность
+                                                </a>
+                                            </div>
+                                            <div class="user-lecture__links">
+                                                <div class="user-watch">
+                                                    <a href="#" class="user-watch__link"></a>
+                                                    Лекций просмотрено: <span>4</span> из <span>23</span>
+                                                    <div class="user-watch__line">
+                                                        <span class="user-watch__range" style="width: 40%;"></span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="user-btn"><span>Экзамен</span></a>
+                                            </div>
+                                            <div class="user-watch__list">
+                                                <div class="user-watch__item">
+                                                    <a href="#" class="course-visited">
+                                                        Почему русские боялись импрессионизма
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#">
+                                                        Как русское искусство перестало быть провинциальным
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#" class="course-visited">
+                                                        Как в Россию пришли постимпрессионизм и фовизм
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#" class="course-visited">
+                                                        Как Матисс поссорил русских
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#">
+                                                        Как Щукин и Морозов собирали французскую живопись
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="user-lecture__inner">
+                                            <div class="user-lecture__top">
+                                                <a href="#" class="js-lecture-select">
+                                                    Рынок вакансий 2018: ожидания vs. реальность
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="user-lecture__inner">
+                                            <div class="user-lecture__top">
+                                                <a href="#" class="js-lecture-select">
+                                                    Рынок вакансий 2018: ожидания vs. реальность
+                                                </a>
+                                            </div>
+                                            <div class="user-lecture__links">
+                                                <div class="user-watch">
+                                                    <a href="#" class="user-watch__link"></a>
+                                                    Лекций просмотрено: <span>4</span> из <span>23</span>
+                                                    <div class="user-watch__line">
+                                                        <span class="user-watch__range" style="width: 40%;"></span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="user-btn"><span>Экзамен</span></a>
+                                            </div>
+                                            <div class="user-watch__list">
+                                                <div class="user-watch__item">
+                                                    <a href="#" class="course-visited">
+                                                        Почему русские боялись импрессионизма
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#">
+                                                        Как русское искусство перестало быть провинциальным
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#" class="course-visited">
+                                                        Как в Россию пришли постимпрессионизм и фовизм
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#" class="course-visited">
+                                                        Как Матисс поссорил русских
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#">
+                                                        Как Щукин и Морозов собирали французскую живопись
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="user-lecture__inner">
+                                            <div class="user-lecture__top">
+                                                <a href="#" class="js-lecture-select">
+                                                    Рынок вакансий 2018: ожидания vs. реальность
+                                                </a>
+                                            </div>
+                                            <div class="user-lecture__links">
+                                                <div class="user-watch">
+                                                    <a href="#" class="user-watch__link"></a>
+                                                    Лекций просмотрено: <span>4</span> из <span>23</span>
+                                                    <div class="user-watch__line">
+                                                        <span class="user-watch__range" style="width: 40%;"></span>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="user-btn"><span>Экзамен</span></a>
+                                            </div>
+                                            <div class="user-watch__list">
+                                                <div class="user-watch__item">
+                                                    <a href="#" class="course-visited">
+                                                        Почему русские боялись импрессионизма
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#">
+                                                        Как русское искусство перестало быть провинциальным
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#" class="course-visited">
+                                                        Как в Россию пришли постимпрессионизм и фовизм
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#" class="course-visited">
+                                                        Как Матисс поссорил русских
+                                                    </a>
+                                                </div>
+                                                <div class="user-watch__item">
+                                                    <a href="#">
+                                                        Как Щукин и Морозов собирали французскую живопись
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="user-enter js-user-enter">
+                        <span class="user-links__icon"></span>
+                        Войти
+                    </a>
+                </div>
+                <a href="#" class="menu-btn">
+                    <span class="burger-icon"></span>
+                </a>
+            </div>
+        </div>
+        <div class="menu-mobile">
+            <ul class="menu-mobile__list">
+                <li class="menu-mobile__item">
+                    <a href="#" class="menu-mobile__link">О проекте</a>
+                </li>
+                <li class="menu-mobile__item menu-mobile__item--submenu">
+                    <a href="#" class="menu-mobile__link">Обучение</a>
+                    <div class="menu-mobile-submenu">
+                        <div class="menu-mobile-submenu__item">
+                            <a href="#" class="menu-mobile-submenu__link">Курсы</a>
+                        </div>
+                        <div class="menu-mobile-submenu__item">
+                            <a href="#" class="menu-mobile-submenu__link active">Журнал</a>
+                        </div>
+                        <div class="menu-mobile-submenu__item">
+                            <a href="#" class="menu-mobile-submenu__link">События</a></div>
+                        <div class="menu-mobile-submenu__item">
+                            <a href="#" class="menu-mobile-submenu__link">Онлайн-университет</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu-mobile__item"><a href="#" class="menu-mobile__link">Вебинары</a></li>
+                <li class="menu-mobile__item"><a href="#" class="menu-mobile__link">Блог</a></li>
+                <li class="menu-mobile__item"><a href="#" class="menu-mobile__link">Возможности</a></li>
+                <li class="menu-mobile__item"><a href="#" class="menu-mobile__link">Новости</a></li>
+                <li class="menu-mobile__item"><a href="#" class="menu-mobile__link">FAQ</a></li>
+            </ul>
+        </div>
     </div>
+    <div class="menu-bg"></div>
+    <!-- RIGHT-PANEL -->
+    <div class="right-panel__bg"></div>
+    <div class="right-panel__content">
+        <a href="#" class="right-panel__enter">Войти на сайт</a>
+        <a href="#" class="right-panel__exit">Закрыть</a>
+        <div class="registration-form">
+            <h3>Регистрация</h3>
+            <form action="#" method="post">
+                <div class="input-wrap input-wrap--necessary">
+                    <input type="text" placeholder="Логин, электронная почта или номер">
+                </div>
+                <div class="input-wrap">
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="associate" name="checkbox">
+                        <label for="associate">Сотрудник дилера</label>
+                    </div>
+                    <div class="input-wrap__info">
+                        Выбирая данный чекбокс вы подтверждаете что являетесь сотрудником дилера и подтверждаете возможность указать наименование дилера и идентификационный номер дилера
+                    </div>
+                </div>
+                <div class="input-wrap input-wrap--necessary">
+                    <input type="password" placeholder="Придумайте пароль">
+                    <a href="#" class="toggle-pass"></a>
+                </div>
+                <div class="input-wrap input-wrap--necessary">
+                    <input type="password" placeholder="Подтвердите пароль">
+                    <div class="input-wrap__info">
+                        Пароль должен содержать не менее 8 символов, включающих в себя: латинские буквы нижнего (a..z) или верхнего (A..Z) регистров, цифры (0..9).
+                    </div>
+                </div>
+                <div class="submit-wrap">
+                    <input type="submit" class="btn" value="Зарегистрироваться">
+                    <div class="submit-wrap__info">
+                        Для того, чтобы зарегистрироваться необходимо заполнить все отмеченные поля
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- END RIGHT-PANEL -->
 </header>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="8" height="5" viewBox="0 0 8 5">
+<defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="Rounded_Rectangle_8" data-name="Rounded Rectangle 8" class="cls-1" d="M530.149,60.893l3.154,3.36,0.35,0.374L534,65l0.35-.373,0.351-.374,3.154-3.36a0.552,0.552,0,0,0,0-.747,0.475,0.475,0,0,0-.7,0L534,63.507l-3.154-3.361a0.475,0.475,0,0,0-.7,0A0.552,0.552,0,0,0,530.149,60.893Z" transform="translate(-530.031 -60)"/>
+</svg>
