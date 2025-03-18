@@ -36,6 +36,27 @@
 	    	margin-right: 0;
 	    }
 	}
+	.index-top {
+	    padding: 160px 0 90px;
+	}
+	.index-top-socials {
+	    position: static;
+	    transform: none;
+	    flex-direction: row;
+	}
+	.index-top-socials__item{
+		margin-bottom: 0;
+		margin-right: 10px;
+		&:last-child{
+			margin-right: 0;
+		}
+	}
+	.layout--course .index-top {
+	    padding: 164px 0 40px;
+	}
+	.index-top__course {
+	    margin-bottom: 20px;
+	}
 }
 
 @media screen and (max-width:1000px){
@@ -81,6 +102,9 @@
 	.page-header.fixed .top-logo{
 		margin-bottom: 0;
 	}
+	.m-index .index-top {
+        padding: 80px 0 0;
+    }
 }
 
 @media screen and (max-width: 900px){
@@ -109,7 +133,6 @@
 	    }
 	}
 }
-
 
 @media screen and (max-width: 767px){
 	h1,
@@ -169,10 +192,45 @@
 	.authorization-form, .registration-form, .recovery-form, .confirm-form {
         width: 100%;
     }
+	.layout--course .index-top {
+	    padding: 105px 0 40px;
+	}
+	.index-top__info {
+	    padding: 40px 0;
+	    width: 100%;
+	}
+	.index-top__info p {
+	    line-height: 1.3;
+	    margin-bottom: 30px;
+	    font-size: 20px;
+	}
+	h1,
+	.index-top__info h1{
+	    font-size: 42px;
+	}
+	h2 {
+	    font-size: 32px;
+	}
+	h3{
+		font-size: 24px;
+	}
+	h4{
+		font-size: 20px;
+	}
+	h5{
+		font-size: 18px;
+	}
+	h6{
+		font-size: 16px;
+	}
+	
 }
 
-
 @media screen and (max-width: 600px){
+	html,
+	body{
+		scrollbar-gutter: stable;
+	}
     body{
         font-size: 14px;
     }
@@ -221,5 +279,20 @@
 	}
 	.user-lecture__top{
 		padding-left: 25px;
+	}
+	h1, .index-top__info h1{
+	    font-size: 30px;
+	    line-height: 1.3;
+	}
+	h2 {
+	    font-size: 28px;
+	    line-height: 1.3;
+	}
+	.index-top__info .btn {
+	    padding: 9px 15px;
+	    text-transform: none;
+	}
+	.page-header__view {
+		margin: -10px 0 0 0;
 	}
 }
