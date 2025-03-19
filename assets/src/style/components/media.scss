@@ -15,11 +15,25 @@
 	    	margin-right: 0;
 	    }
 	}
+	.index-about__count {
+	    font-size: 40px;
+	    line-height: 44px;
+	}
 }
 
 @media screen and (max-width: 1200px){
 	.top-nav {
 		margin: -18px 0 0 20px;
+	}
+	.index-courses__img,
+	.index-curators__img{
+	    height: 310px;
+	}
+	.other-slider .swiper-button-next, .other-slider .swiper-button-prev{
+		top: 205px;
+	}
+	.index-curators .swiper-button-next, .index-curators .swiper-button-prev{
+		top: 155px;
 	}
 }
 
@@ -27,6 +41,22 @@
 	.right-panel__content {
 	    padding: 55px 40px;
 	}
+	.index-about__title {
+	    font-size: 14px;
+	}
+	.index-courses__img {
+	    height: 250px;
+	}
+	.other-slider .swiper-button-next, .other-slider .swiper-button-prev {
+        top: 175px;
+    }
+	.index-courses__inner {
+		padding: 20px 10px;
+	}
+	.other-slider{
+		margin: 0 -10px;
+	}
+	
 }
 
 @media screen and (max-width:1024px){
@@ -74,6 +104,9 @@
 	.user-course__list:before{
 		right: 85px;
 	}
+	.index-courses__item {
+	    width: 50%;
+	}
 }
 
 
@@ -105,6 +138,16 @@
 	.m-index .index-top {
         padding: 80px 0 0;
     }
+	.index-about__item {
+	    width: 50%;
+	    padding-left: 0;
+	}
+	.index-about__list {
+	    flex-wrap: wrap;
+	}
+	.index-about__count:after{
+		display: none;
+	}
 }
 
 @media screen and (max-width: 900px){
@@ -223,7 +266,19 @@
 	h6{
 		font-size: 16px;
 	}
-	
+	.index-about__count {
+	    font-size: 30px;
+	    line-height: 30px;
+	}
+	.index-about {
+	    padding: 30px 0;
+	}
+	.other-slider-min,
+	.other-slider{
+		.index-courses__bg {
+		    box-shadow: none;
+		}
+	}
 }
 
 @media screen and (max-width: 600px){
@@ -291,8 +346,45 @@
 	.index-top__info .btn {
 	    padding: 9px 15px;
 	    text-transform: none;
+		min-width: 175px;
 	}
 	.page-header__view {
 		margin: -10px 0 0 0;
 	}
+	.index-about__item {
+	    width: 100%;
+	    padding-bottom: 20px;
+	}
+	.index-about__msg {
+	    margin: 0 auto 20px;
+	}
+	.index-about__wrap {
+		justify-content: center;
+		width: 100%;
+	}
+	.index-about__info{
+		width: 135px;
+	}
+	.menu-mobile__link {
+		font-size: 18px;
+	}
+	.index-courses__item,
+	.course .index-courses__item{
+	    width: 100%;
+	    margin-bottom: 20px;
+	}
+	.index-courses__bg {
+	    box-shadow: none;
+	}
+	.index-courses__btn{
+		opacity: 1;
+	}
+	.index-courses__item.swiper-slide-active .index-courses__bg {
+	    box-shadow: 0px 2px 30px 0px rgba(190, 205, 209, 0.75);
+	}
+	.index-curators__item.swiper-slide-active .index-curators__txt {
+		color: #fff;
+	}
 }
+
+
