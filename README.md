@@ -1,9 +1,4 @@
-## Окружение для разработки веб-проектов
-Готовое окружение для разработки фронтенд составляющей сайтов и интерфейсов админок.
-
-## Требования к окружению
-Для создания окружения необходимо иметь следующие установленные инструменты:
--	Node.js
--	Git
--	Gulp
--	Bower (только для версии 1.0.0)
+### Tikkurila - Live Demo - https://krakvinme.github.io/tikkurila/
+---
+Only the main page of the project is presented for review.
+Used: Gulp, Html, Js, Sass(Scss)
