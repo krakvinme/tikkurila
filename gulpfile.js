@@ -1,42 +1,42 @@
 'use strict';
 var path = {
     build: {
-        html: 'assets/docs/',
-        js: 'assets/docs/js/',
-        js_libs: 'assets/docs/js/libs/',
-        css: 'assets/docs/css/',
-        img: 'assets/docs/img/',
-        imgWebp: 'assets/docs/img/webp/',
-        favicon: 'assets/docs/favicon/',
-        fonts: 'assets/docs/fonts/'
+        html: 'docs/',
+        js: 'docs/js/',
+        js_libs: 'docs/js/libs/',
+        css: 'docs/css/',
+        img: 'docs/img/',
+        imgWebp: 'docs/img/webp/',
+        favicon: 'docs/favicon/',
+        fonts: 'docs/fonts/'
     },
     src: {
-        html: 'assets/src/*.html',
-        js: 'assets/src/js/interface.js',
-        style: 'assets/src/style/main.scss',
-        img: 'assets/src/img/**/*.*',
-        favicon: 'assets/src/favicon/**/*.*',
-        fonts: 'assets/src/fonts/**/*.*'
+        html: 'src/*.html',
+        js: 'src/js/interface.js',
+        style: 'src/style/main.scss',
+        img: 'src/img/**/*.*',
+        favicon: 'src/favicon/**/*.*',
+        fonts: 'src/fonts/**/*.*'
     },
     watch: {
-        html: 'assets/src/**/*.html',
-        js: 'assets/src/js/*.js',
-        css: 'assets/src/style/**/*.scss',
-        img: 'assets/src/img/**/*.*',
-        favicon: 'assets/src/favicon/**/*.*',
-        fonts: 'assets/srs/fonts/**/*.*'
+        html: 'src/**/*.html',
+        js: 'src/js/*.js',
+        css: 'src/style/**/*.scss',
+        img: 'src/img/**/*.*',
+        favicon: 'src/favicon/**/*.*',
+        fonts: 'srs/fonts/**/*.*'
     },
     libs: {
-        js: 'assets/src/js/libs/*.js',
-        style: 'assets/src/style/libs.scss',
+        js: 'src/js/libs/*.js',
+        style: 'src/style/libs.scss',
     },
-    clean: './assets/docs/*'
+    clean: './docs/*'
 };
 
 
 var config = {
     server: {
-        baseDir: './assets/docs'
+        baseDir: './docs'
     },
     notify: false
 };
