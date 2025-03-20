@@ -250,31 +250,44 @@ $(document).ready(function() {
 
 	const swiperOther = new Swiper(".other-slider", {
         slidesPerView: 4,
-        loop: true,
 		loopAdditionalSlides: 5,
+		loop: true,
 		navigation: {
 			nextEl: '.swiper-button-next',
 			prevEl: '.swiper-button-prev',
 		},
 		breakpoints: {
 			320: {
-				slidesPerView: 1,
-				loop: true,
+				slidesPerView: 1
 			},
 			640: {
-				slidesPerView: 2,
-				loop: true,
+				slidesPerView: 2
 			},
 			768: {
-				slidesPerView: 3,
-				loop: true,
+				slidesPerView: 3
 			},
 			1100: {
-				slidesPerView: 4,
-				loop: true
+				slidesPerView: 4
 			},
 		},
     });
+
+	const swiperMiddle = new Swiper(".middle-slider", {
+		loop: true,
+		effect: 'fade',
+		autoplay: {
+            delay: 2500,
+        },
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+		pagination: {
+			el: '.swiper-pagination',
+			type: 'bullets',
+			clickable: true,
+		},
+	});
 });
 
 

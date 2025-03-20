@@ -28,7 +28,7 @@
 		}
 		.top-logo{
 		    height: 88px;
-		    margin-bottom: 4px;
+		    margin: 0 0 0 -28px;
 		}
 		
 		.top-nav__list{
@@ -744,10 +744,10 @@ a.user-links__exit{
 			padding: 17px 14px;
 			font-size: 16px;
 		}
-		::-webkit-input-placeholder {color:#000;@include transition(all .25s ease);}
-		::-moz-placeholder          {color:#000;@include transition(all .25s ease);}
-		:-moz-placeholder           {color:#000;@include transition(all .25s ease);}
-		:-ms-input-placeholder      {color:#000;@include transition(all .25s ease);}
+		::-webkit-input-placeholder {color:#000;transition: all .25s ease;}
+		::-moz-placeholder          {color:#000;transition: all .25s ease;}
+		:-moz-placeholder           {color:#000;transition: all .25s ease;}
+		:-ms-input-placeholder      {color:#000;transition: all .25s ease;}
 	
 	
 	
@@ -1054,10 +1054,10 @@ a.user-btn{
 
 
 .confirm-form{
-	::-webkit-input-placeholder {color:#e5e7e8;@include transition(all .25s ease);}
-	::-moz-placeholder          {color:#e5e7e8;@include transition(all .25s ease);}
-	:-moz-placeholder           {color:#e5e7e8;@include transition(all .25s ease);}
-	:-ms-input-placeholder      {color:#e5e7e8;@include transition(all .25s ease);}
+	::-webkit-input-placeholder {color:#e5e7e8;transition: all .25s ease;}
+	::-moz-placeholder          {color:#e5e7e8;transition: all .25s ease;}
+	:-moz-placeholder           {color:#e5e7e8;transition: all .25s ease;}
+	:-ms-input-placeholder      {color:#e5e7e8;transition: all .25s ease;}
 
 
 
@@ -1147,14 +1147,14 @@ a.user-btn{
 	width: 30px;
 	height: 3px;
 	background-color: #385543;
-	@include transition(all .25s ease);
+	transition: all .25s ease;
 	&:before,
 	&:after{
 		display: block;
 		width: 30px;
 		height: 3px;
 		background-color: #385543;
-		@include transition(all .25s ease);
+		transition: all .25s ease;
 		position: absolute;
 		content: "";
 	}
