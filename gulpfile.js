@@ -24,7 +24,7 @@ var path = {
         css: 'src/style/**/*.scss',
         img: 'src/img/**/*.*',
         favicon: 'src/favicon/**/*.*',
-        fonts: 'srs/fonts/**/*.*'
+        fonts: 'src/fonts/**/*.*'
     },
     libs: {
         js: 'src/js/libs/*.js',
@@ -48,7 +48,7 @@ import plumber from 'gulp-plumber'
 import concat from 'gulp-concat'
 import rigger from 'gulp-rigger'
 import sourcemaps from 'gulp-sourcemaps'
-import dartSass from 'sass';
+import * as dartSass from 'sass';
 import gulpSass from 'gulp-sass';
 import autoprefixer from 'gulp-autoprefixer'
 import cleanCSS from 'gulp-clean-css'
@@ -108,8 +108,8 @@ gulp.task('css_libs:build', function () {
 
 gulp.task('js:build', function () {
     return gulp.src([
-            path.src.js,
-        ])
+        path.src.js,
+    ])
         .pipe(plumber())
         .pipe(rigger())
         .pipe(gulp.dest(path.build.js))
@@ -121,7 +121,7 @@ gulp.task('js:build', function () {
         .pipe(webserver.reload({ stream: true }));
 });
 
-gulp.task('favicon:build', function() {
+gulp.task('favicon:build', function () {
     return gulp.src(path.src.favicon)
         .pipe(gulp.dest(path.build.favicon));
 });
@@ -129,8 +129,8 @@ gulp.task('favicon:build', function() {
 
 gulp.task('libs:build', function () {
     return gulp.src([
-            path.libs.js
-        ])
+        path.libs.js
+    ])
         .pipe(plumber())
         .pipe(concat('libs.js'))
 
@@ -144,7 +144,7 @@ gulp.task('libs:build', function () {
 
 
 gulp.task('fonts:build', function () {
-    return gulp.src(path.src.fonts,{ encoding: false })
+    return gulp.src(path.src.fonts, { encoding: false })
         .pipe(gulp.dest(path.build.fonts));
 });
 
@@ -162,8 +162,8 @@ gulp.task('image:build', function () {
             imagemin.svgo({ plugins: [{ removeViewBox: false }] })
         ])))
         .pipe(gulp.dest(path.build.img))
-        // .pipe(webp())
-        // .pipe(gulp.dest(path.build.imgWebp));
+        .pipe(webp())
+        .pipe(gulp.dest(path.build.imgWebp));
 });
 
 
@@ -205,5 +205,5 @@ gulp.task('watch', function () {
 
 gulp.task('default', gulp.series(
     'build',
-    gulp.parallel('webserver','watch')      
+    gulp.parallel('webserver', 'watch')
 ));

@@ -1,15 +1,19 @@
 <!doctype html>
 <html lang="ru">
+
 <head>
-    //= template/head.html
+	//= template/head.html
 </head>
+
 <body>
 	<!--LAYOUT-->
 	<main class="layout m-index">
 		//= template/header.html
 
 		<section class="index-top">
-			<div class="index-top__bg" style="background-image: url(img/content/index-top-bg.jpg);"></div>
+			<div class="index-top__bg"
+				style="background-image: image-set(url(img/webp/content/index-top-bg.webp) type('image/webp'), url(img/content/index-top-bg.jpg) type('image/jpeg'));">
+			</div>
 			<div class="container">
 				<div class="index-top__info">
 					<h1>Tikkurila academy</h1>
@@ -29,13 +33,14 @@
 					Что такое<br> tikkurila academy
 				</h3>
 				<div class="index-about__msg">
-					Финская компания Tikkurila — лидер казахстанского рынка в сегменте лакокрасочных материалов премиум-класса увеличила мощности и расширила спектр продукции
+					Финская компания Tikkurila — лидер казахстанского рынка в сегменте лакокрасочных материалов
+					премиум-класса увеличила мощности и расширила спектр продукции
 				</div>
 				<div class="index-about__list">
 					<div class="index-about__item">
 						<div class="index-about__wrap">
 							<div class="index-about__icon">
-								<img src="img/svg/about-i1.svg" alt="">
+								<img src="img/svg/about-i1.svg" alt="Иконка онлайн-курсов">
 							</div>
 							<div class="index-about__info">
 								<div class="index-about__count">240</div>
@@ -46,7 +51,7 @@
 					<div class="index-about__item">
 						<div class="index-about__wrap">
 							<div class="index-about__icon">
-								<img src="img/svg/about-i2.svg" alt="">
+								<img src="img/svg/about-i2.svg" alt="Иконка преподавателей">
 							</div>
 							<div class="index-about__info">
 								<div class="index-about__count">94</div>
@@ -57,7 +62,7 @@
 					<div class="index-about__item">
 						<div class="index-about__wrap">
 							<div class="index-about__icon">
-								<img src="img/svg/about-i3.svg" alt="">
+								<img src="img/svg/about-i3.svg" alt="Иконка статей">
 							</div>
 							<div class="index-about__info">
 								<div class="index-about__count">70 080</div>
@@ -68,7 +73,7 @@
 					<div class="index-about__item">
 						<div class="index-about__wrap">
 							<div class="index-about__icon">
-								<img src="img/svg/about-i4.svg" alt="">
+								<img src="img/svg/about-i4.svg" alt="Иконка видео-курсов">
 							</div>
 							<div class="index-about__info">
 								<div class="index-about__count">1580</div>
@@ -83,43 +88,53 @@
 			<div class="swiper middle-slider">
 				<div class="swiper-wrapper">
 					<div class="swiper-slide middle-slider__item m-centered">
-						<div class="middle-slider__bg" style="background-image: url(img/content/m-slide1.jpg);"></div>
+						<div class="middle-slider__bg"
+							style="background-image: image-set(url(img/webp/content/m-slide1.webp) type('image/webp'), url(img/content/m-slide1.jpg) type('image/jpeg'));">
+						</div>
 						<div class="middle-slider__wrapper">
 							<div class="middle-slider__title">
 								Природа снова вдохновляет дизайнеров интерьера
 							</div>
 							<div class="middle-slider__info">
-								Теплые оттенки прекрасно сочетаются с прохладным. Сделайте зеленый главным цветом вашего интерьера и вы почувствуете, как ваш дом наполнится гармонией и умиротворением. А комнатные растения, расположенные на разных уровнях, дополнят общую атмосферу.
+								Теплые оттенки прекрасно сочетаются с прохладным. Сделайте зеленый главным цветом вашего
+								интерьера и вы почувствуете, как ваш дом наполнится гармонией и умиротворением. А
+								комнатные растения, расположенные на разных уровнях, дополнят общую атмосферу.
 							</div>
 						</div>
 					</div>
 					<div class="swiper-slide middle-slider__item m-right">
-						<div class="middle-slider__bg" style="background-image: url(img/content/m-slide2.jpg);"></div>
+						<div class="middle-slider__bg"
+							style="background-image: image-set(url(img/webp/content/m-slide2.webp) type('image/webp'), url(img/content/m-slide2.jpg) type('image/jpeg'));">
+						</div>
 						<div class="middle-slider__wrapper">
 							<div class="middle-slider__title">
 								Теплые оттенки прекрасно сочетаются
 							</div>
 							<div class="middle-slider__info">
-								Сделайте зеленый главным цветом вашего интерьера и вы почувствуете, как ваш дом наполнится гармонией и умиротворением. Теплые оттенки прекрасно сочетаются с прохладным.
+								Сделайте зеленый главным цветом вашего интерьера и вы почувствуете, как ваш дом
+								наполнится гармонией и умиротворением. Теплые оттенки прекрасно сочетаются с прохладным.
 							</div>
 						</div>
 					</div>
 					<div class="swiper-slide middle-slider__item m-left">
-						<div class="middle-slider__bg" style="background-image: url(img/content/m-slide3.jpg);"></div>
+						<div class="middle-slider__bg"
+							style="background-image: image-set(url(img/webp/content/m-slide3.webp) type('image/webp'), url(img/content/m-slide3.jpg) type('image/jpeg'));">
+						</div>
 						<div class="middle-slider__wrapper">
 							<div class="middle-slider__title">
 								Сделайте зеленый главным цветом вашего интерьера
 							</div>
 							<div class="middle-slider__info">
 								А комнатные растения, расположенные на разных уровнях, дополнят общую атмосферу.
-								Теплые оттенки прекрасно сочетаются с прохладным. Сделайте зеленый главным цветом вашего интерьера и вы почувствуете, как ваш дом наполнится гармонией и умиротворением.
+								Теплые оттенки прекрасно сочетаются с прохладным. Сделайте зеленый главным цветом вашего
+								интерьера и вы почувствуете, как ваш дом наполнится гармонией и умиротворением.
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="swiper-pagination"></div>
 				<div class="swiper-button-prev"></div>
-  				<div class="swiper-button-next"></div>
+				<div class="swiper-button-next"></div>
 			</div>
 		</div>
 		<section class="index-courses">
@@ -133,10 +148,12 @@
 								<div class="index-courses__labels">
 									<a href="#" class="index-courses__label">Литература</a>
 								</div>
-								<a href="#" class="index-courses__img" style="background-image: url(img/content/course1.jpg)"></a>
+								<a href="#" class="index-courses__img"
+									style="background-image: image-set(url(img/webp/content/course1.webp) type('image/webp'), url(img/content/course1.jpg) type('image/jpeg'))"></a>
 								<a href="#" class="index-courses__title">Работы внутри помещения</a>
 								<div class="index-courses__txt">
-									Дизайнер по интерьерам, известна своим блогом Varpunen, а также сотрудничеством с несколькими дизайнерскими брендами.
+									Дизайнер по интерьерам, известна своим блогом Varpunen, а также сотрудничеством с
+									несколькими дизайнерскими брендами.
 								</div>
 							</div>
 						</div>
@@ -146,7 +163,8 @@
 								<div class="index-courses__labels">
 									<a href="#" class="index-courses__label">Повседневная жизнь</a>
 								</div>
-								<a href="#" class="index-courses__img" style="background-image: url(img/content/course2.jpg)"></a>
+								<a href="#" class="index-courses__img"
+									style="background-image: image-set(url(img/webp/content/course2.webp) type('image/webp'), url(img/content/course2.jpg) type('image/jpeg'))"></a>
 								<a href="#" class="index-courses__title">Окраска фасадов</a>
 								<div class="index-courses__txt">
 									Дизайнер по интерьерам, известна своим блогом Varpunen
@@ -159,10 +177,12 @@
 								<div class="index-courses__labels">
 									<a href="#" class="index-courses__label">История</a>
 								</div>
-								<a href="#" class="index-courses__img" style="background-image: url(img/content/course3.jpg)"></a>
+								<a href="#" class="index-courses__img"
+									style="background-image: image-set(url(img/webp/content/course3.webp) type('image/webp'), url(img/content/course3.jpg) type('image/jpeg'))"></a>
 								<a href="#" class="index-courses__title">Петербург накануне революции</a>
 								<div class="index-courses__txt">
-									Дизайнер по интерьерам, известна своим блогом Varpunen, а также сотрудничеством с несколькими дизайнерскими брендами.
+									Дизайнер по интерьерам, известна своим блогом Varpunen, а также сотрудничеством с
+									несколькими дизайнерскими брендами.
 								</div>
 							</div>
 						</div>
@@ -172,7 +192,8 @@
 								<div class="index-courses__labels">
 									<a href="#" class="index-courses__label">Фольклор</a>
 								</div>
-								<a href="#" class="index-courses__img" style="background-image: url(img/content/course4.jpg)"></a>
+								<a href="#" class="index-courses__img"
+									style="background-image: image-set(url(img/webp/content/course4.webp) type('image/webp'), url(img/content/course4.jpg) type('image/jpeg'))"></a>
 								<a href="#" class="index-courses__title">«Доктор Живаго» Бориса Пастернака</a>
 								<div class="index-courses__txt">
 									Дизайнер
@@ -185,10 +206,12 @@
 								<div class="index-courses__labels">
 									<a href="#" class="index-courses__label">Литература</a>
 								</div>
-								<a href="#" class="index-courses__img" style="background-image: url(img/content/course1.jpg)"></a>
+								<a href="#" class="index-courses__img"
+									style="background-image: image-set(url(img/webp/content/course1.webp) type('image/webp'), url(img/content/course1.jpg) type('image/jpeg'))"></a>
 								<a href="#" class="index-courses__title">Работы внутри помещения</a>
 								<div class="index-courses__txt">
-									Дизайнер по интерьерам, известна своим блогом Varpunen, а также сотрудничеством с несколькими дизайнерскими брендами.
+									Дизайнер по интерьерам, известна своим блогом Varpunen, а также сотрудничеством с
+									несколькими дизайнерскими брендами.
 								</div>
 							</div>
 						</div>
@@ -198,7 +221,8 @@
 								<div class="index-courses__labels">
 									<a href="#" class="index-courses__label">Повседневная жизнь</a>
 								</div>
-								<a href="#" class="index-courses__img" style="background-image: url(img/content/course2.jpg)"></a>
+								<a href="#" class="index-courses__img"
+									style="background-image: image-set(url(img/webp/content/course2.webp) type('image/webp'), url(img/content/course2.jpg) type('image/jpeg'))"></a>
 								<a href="#" class="index-courses__title">Окраска фасадов</a>
 								<div class="index-courses__txt">
 									Дизайнер по интерьерам, известна своим блогом Varpunen
@@ -211,7 +235,8 @@
 								<div class="index-courses__labels">
 									<a href="#" class="index-courses__label">История</a>
 								</div>
-								<a href="#" class="index-courses__img" style="background-image: url(img/content/course3.jpg)"></a>
+								<a href="#" class="index-courses__img"
+									style="background-image: image-set(url(img/webp/content/course3.webp) type('image/webp'), url(img/content/course3.jpg) type('image/jpeg'))"></a>
 								<a href="#" class="index-courses__title">Петербург накануне революции</a>
 								<div class="index-courses__txt">
 									Дизайнер
@@ -224,10 +249,12 @@
 								<div class="index-courses__labels">
 									<a href="#" class="index-courses__label">Фольклор</a>
 								</div>
-								<a href="#" class="index-courses__img" style="background-image: url(img/content/course4.jpg)"></a>
+								<a href="#" class="index-courses__img"
+									style="background-image: image-set(url(img/webp/content/course4.webp) type('image/webp'), url(img/content/course4.jpg) type('image/jpeg'))"></a>
 								<a href="#" class="index-courses__title">«Доктор Живаго» Бориса Пастернака</a>
 								<div class="index-courses__txt">
-									Дизайнер по интерьерам, известна своим блогом Varpunen, а также сотрудничеством с несколькими дизайнерскими брендами.
+									Дизайнер по интерьерам, известна своим блогом Varpunen, а также сотрудничеством с
+									несколькими дизайнерскими брендами.
 								</div>
 							</div>
 						</div>
@@ -237,29 +264,32 @@
 								<div class="index-courses__labels">
 									<a href="#" class="index-courses__label">Литература</a>
 								</div>
-								<a href="#" class="index-courses__img" style="background-image: url(img/content/course1.jpg)"></a>
+								<a href="#" class="index-courses__img"
+									style="background-image: image-set(url(img/webp/content/course1.webp) type('image/webp'), url(img/content/course1.jpg) type('image/jpeg'))"></a>
 								<a href="#" class="index-courses__title">Работы внутри помещения</a>
 								<div class="index-courses__txt">
 									несколькими дизайнерскими брендами.
 								</div>
 							</div>
 						</div>
-						<div class="swiper-slide ndex-courses__item">
+						<div class="swiper-slide index-courses__item">
 							<div class="index-courses__bg"></div>
 							<div class="index-courses__inner">
 								<div class="index-courses__labels">
 									<a href="#" class="index-courses__label">Повседневная жизнь</a>
 								</div>
-								<a href="#" class="index-courses__img" style="background-image: url(img/content/course2.jpg)"></a>
+								<a href="#" class="index-courses__img"
+									style="background-image: image-set(url(img/webp/content/course2.webp) type('image/webp'), url(img/content/course2.jpg) type('image/jpeg'))"></a>
 								<a href="#" class="index-courses__title">Окраска фасадов</a>
 								<div class="index-courses__txt">
-									Дизайнер по интерьерам, известна своим блогом Varpunen, а также сотрудничеством с несколькими дизайнерскими брендами.
+									Дизайнер по интерьерам, известна своим блогом Varpunen, а также сотрудничеством с
+									несколькими дизайнерскими брендами.
 								</div>
 							</div>
 						</div>
-					</div>		
+					</div>
 					<div class="swiper-button-prev"></div>
-  					<div class="swiper-button-next"></div>
+					<div class="swiper-button-next"></div>
 				</div>
 			</div>
 		</section>
@@ -271,51 +301,60 @@
 						<div class="swiper-slide index-curators__item">
 							<a href="#" class="index-curators__inner">
 								<div class="index-curators__img">
-									<div class="index-curators__bg" style="background-image: url(img/content/curator1.jpg);"></div>
+									<div class="index-curators__bg"
+										style="background-image: image-set(url(img/webp/content/curator1.webp) type('image/webp'), url(img/content/curator1.jpg) type('image/jpeg'));"></div>
 								</div>
 								<div class="index-curators__title">​​Сусанна Венто</div>
 								<div class="index-curators__txt">
-									Дизайнер по интерьерам, известна своим блогом Varpunen, а также сотрудничеством с несколькими дизайнерскими брендами.
+									Дизайнер по интерьерам, известна своим блогом Varpunen, а также сотрудничеством с
+									несколькими дизайнерскими брендами.
 								</div>
 							</a>
 						</div>
 						<div class="swiper-slide index-curators__item">
 							<a href="#" class="index-curators__inner">
 								<div class="index-curators__img">
-									<div class="index-curators__bg" style="background-image: url(img/content/curator2.jpg);"></div>
+									<div class="index-curators__bg"
+										style="background-image: image-set(url(img/webp/content/curator2.webp) type('image/webp'), url(img/content/curator2.jpg) type('image/jpeg'));"></div>
 								</div>
 								<div class="index-curators__title">​​Теему Мууримяки</div>
 								<div class="index-curators__txt">
-									Мууримяки известен благодаря созданию элегантных вечерних и свадебных платьев, а также сотрудничеству с модными домами Giorgio Armani и Dolce & Gabbana.
+									Мууримяки известен благодаря созданию элегантных вечерних и свадебных платьев, а
+									также сотрудничеству с модными домами Giorgio Armani и Dolce & Gabbana.
 								</div>
 							</a>
 						</div>
 						<div class="swiper-slide index-curators__item">
 							<a href="#" class="index-curators__inner">
 								<div class="index-curators__img">
-									<div class="index-curators__bg" style="background-image: url(img/content/curator3.jpg);"></div>
+									<div class="index-curators__bg"
+										style="background-image: image-set(url(img/webp/content/curator3.webp) type('image/webp'), url(img/content/curator3.jpg) type('image/jpeg'));"></div>
 								</div>
 								<div class="index-curators__title">​​Оскарссон Михаил</div>
 								<div class="index-curators__txt">
-									Благодаря элегантных вечерних и свадебных платьев, а также сотрудничеству с модными домами Giorgio Armani и Dolce & Gabbana.
+									Благодаря элегантных вечерних и свадебных платьев, а также сотрудничеству с модными
+									домами Giorgio Armani и Dolce & Gabbana.
 								</div>
 							</a>
 						</div>
 						<div class="swiper-slide index-curators__item">
 							<a href="#" class="index-curators__inner">
 								<div class="index-curators__img">
-									<div class="index-curators__bg" style="background-image: url(img/content/curator4.jpg);"></div>
+									<div class="index-curators__bg"
+										style="background-image: image-set(url(img/webp/content/curator4.webp) type('image/webp'), url(img/content/curator4.jpg) type('image/jpeg'));"></div>
 								</div>
 								<div class="index-curators__title">​​Теему Мууримяки</div>
 								<div class="index-curators__txt">
-									В своей работе она предпочитает классические решения, но смело сочетает дизайн и изделия из переработанных материалов..
+									В своей работе она предпочитает классические решения, но смело сочетает дизайн и
+									изделия из переработанных материалов..
 								</div>
 							</a>
 						</div>
 						<div class="swiper-slide index-curators__item">
 							<a href="#" class="index-curators__inner">
 								<div class="index-curators__img">
-									<div class="index-curators__bg" style="background-image: url(img/content/curator2.jpg);"></div>
+									<div class="index-curators__bg"
+										style="background-image: image-set(url(img/webp/content/curator2.webp) type('image/webp'), url(img/content/curator2.jpg) type('image/jpeg'));"></div>
 								</div>
 								<div class="index-curators__title">​​Теему Мууримяки</div>
 								<div class="index-curators__txt">
@@ -326,7 +365,8 @@
 						<div class="swiper-slide index-curators__item">
 							<a href="#" class="index-curators__inner">
 								<div class="index-curators__img">
-									<div class="index-curators__bg" style="background-image: url(img/content/av.jpg);"></div>
+									<div class="index-curators__bg" style="background-image: image-set(url(img/webp/content/av.webp) type('image/webp'), url(img/content/av.jpg) type('image/jpeg'));">
+									</div>
 								</div>
 								<div class="index-curators__title">​​Волосевич Андрей</div>
 								<div class="index-curators__txt">
@@ -337,51 +377,60 @@
 						<div class="swiper-slide index-curators__item">
 							<a href="#" class="index-curators__inner">
 								<div class="index-curators__img">
-									<div class="index-curators__bg" style="background-image: url(img/content/curator1.jpg);"></div>
+									<div class="index-curators__bg"
+										style="background-image: image-set(url(img/webp/content/curator1.webp) type('image/webp'), url(img/content/curator1.jpg) type('image/jpeg'));"></div>
 								</div>
 								<div class="index-curators__title">​​Сусанна Венто</div>
 								<div class="index-curators__txt">
-									Дизайнер по интерьерам, известна своим блогом Varpunen, а также сотрудничеством с несколькими дизайнерскими брендами.
+									Дизайнер по интерьерам, известна своим блогом Varpunen, а также сотрудничеством с
+									несколькими дизайнерскими брендами.
 								</div>
 							</a>
 						</div>
 						<div class="swiper-slide index-curators__item">
 							<a href="#" class="index-curators__inner">
 								<div class="index-curators__img">
-									<div class="index-curators__bg" style="background-image: url(img/content/curator2.jpg);"></div>
+									<div class="index-curators__bg"
+										style="background-image: image-set(url(img/webp/content/curator2.webp) type('image/webp'), url(img/content/curator2.jpg) type('image/jpeg'));"></div>
 								</div>
 								<div class="index-curators__title">​​Теему Мууримяки</div>
 								<div class="index-curators__txt">
-									Мууримяки известен благодаря созданию элегантных вечерних и свадебных платьев, а также сотрудничеству с модными домами Giorgio Armani и Dolce & Gabbana.
+									Мууримяки известен благодаря созданию элегантных вечерних и свадебных платьев, а
+									также сотрудничеству с модными домами Giorgio Armani и Dolce & Gabbana.
 								</div>
 							</a>
 						</div>
 						<div class="swiper-slide index-curators__item">
 							<a href="#" class="index-curators__inner">
 								<div class="index-curators__img">
-									<div class="index-curators__bg" style="background-image: url(img/content/curator3.jpg);"></div>
+									<div class="index-curators__bg"
+										style="background-image: image-set(url(img/webp/content/curator3.webp) type('image/webp'), url(img/content/curator3.jpg) type('image/jpeg'));"></div>
 								</div>
 								<div class="index-curators__title">​​Оскарссон Михаил</div>
 								<div class="index-curators__txt">
-									Благодаря элегантных вечерних и свадебных платьев, а также сотрудничеству с модными домами Giorgio Armani и Dolce & Gabbana.
+									Благодаря элегантных вечерних и свадебных платьев, а также сотрудничеству с модными
+									домами Giorgio Armani и Dolce & Gabbana.
 								</div>
 							</a>
 						</div>
 						<div class="swiper-slide index-curators__item">
 							<a href="#" class="index-curators__inner">
 								<div class="index-curators__img">
-									<div class="index-curators__bg" style="background-image: url(img/content/curator4.jpg);"></div>
+									<div class="index-curators__bg"
+										style="background-image: image-set(url(img/webp/content/curator4.webp) type('image/webp'), url(img/content/curator4.jpg) type('image/jpeg'));"></div>
 								</div>
 								<div class="index-curators__title">​​Теему Мууримяки</div>
 								<div class="index-curators__txt">
-									В своей работе она предпочитает классические решения, но смело сочетает дизайн и изделия из переработанных материалов..
+									В своей работе она предпочитает классические решения, но смело сочетает дизайн и
+									изделия из переработанных материалов..
 								</div>
 							</a>
 						</div>
 						<div class="swiper-slide index-curators__item">
 							<a href="#" class="index-curators__inner">
 								<div class="index-curators__img">
-									<div class="index-curators__bg" style="background-image: url(img/content/curator2.jpg);"></div>
+									<div class="index-curators__bg"
+										style="background-image: image-set(url(img/webp/content/curator2.webp) type('image/webp'), url(img/content/curator2.jpg) type('image/jpeg'));"></div>
 								</div>
 								<div class="index-curators__title">​​Теему Мууримяки</div>
 								<div class="index-curators__txt">
@@ -392,7 +441,8 @@
 						<div class="swiper-slide index-curators__item">
 							<a href="#" class="index-curators__inner">
 								<div class="index-curators__img">
-									<div class="index-curators__bg" style="background-image: url(img/content/av.jpg);"></div>
+									<div class="index-curators__bg" style="background-image: image-set(url(img/webp/content/av.webp) type('image/webp'), url(img/content/av.jpg) type('image/jpeg'));">
+									</div>
 								</div>
 								<div class="index-curators__title">​​Волосевич Андрей</div>
 								<div class="index-curators__txt">
@@ -402,7 +452,7 @@
 						</div>
 					</div>
 					<div class="swiper-button-prev"></div>
-  					<div class="swiper-button-next"></div>
+					<div class="swiper-button-next"></div>
 				</div>
 			</div>
 		</section>
@@ -411,4 +461,5 @@
 
 	<script src="js/interface.min.js"></script>
 </body>
+
 </html>
